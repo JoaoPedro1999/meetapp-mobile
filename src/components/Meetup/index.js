@@ -18,15 +18,11 @@ export default function Meetapp({ data, handleSubscribe }) {
 
   const userId = useSelector(store => store.user.profile.id);
 
-  // if (!data.past) {
-  //   past: false
-  // }
-
   return (
     <Container
-      // style={{
-      //   opacity: past ? 1 : 0.5,
-      // }}
+      style={{
+        opacity: past ? 1 : 0.5,
+      }}
     >
       <Banner
         source={{
@@ -63,15 +59,3 @@ export default function Meetapp({ data, handleSubscribe }) {
     </Container>
   );
 }
-
-/* PROPS DECLARATION */
-Meetapp.propTypes = {
-  data: PropTypes.oneOfType([PropTypes.object]).isRequired,
-  handleSubscribe: PropTypes.func,
-  handleUninscribe: PropTypes.func,
-};
-
-Meetapp.defaultProps = {
-  handleSubscribe: null,
-  handleUninscribe: null,
-};

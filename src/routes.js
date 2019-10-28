@@ -3,7 +3,6 @@ import {
   createAppContainer,
   createSwitchNavigator,
   createBottomTabNavigator,
-  createStackNavigator,
 } from 'react-navigation';
 
 import SignIn from './pages/SignIn';

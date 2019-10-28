@@ -52,7 +52,6 @@ export default function Subscription({ data, handleUninscribe }) {
                   <View/>
                 )}
             </ViewButtom>
-          
       </Content>
     </Container>
   );

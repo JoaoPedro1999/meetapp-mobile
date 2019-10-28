@@ -18,8 +18,8 @@ import {
   ButtonDate,
   TextDate,
   List,
-  NoMeetapps,
-  NoMeetappsText
+  NoMeetup,
+  NoMeetupText
 } from './styles';
 
 
@@ -107,12 +107,12 @@ function Dashboard() {
               data={noMeetups}
               keyExtractor={item => String(item)}
               renderItem={() => (
-                <NoMeetapps>
+                <NoMeetup>
                   <Icon name="sentiment-dissatisfied" size={40} color="#fff" />
-                  <NoMeetappsText>
+                  <NoMeetupText>
                     Nenhum meetup marcado para hoje!
-                  </NoMeetappsText>
-                </NoMeetapps>
+                  </NoMeetupText>
+                </NoMeetup>
               )}
               onRefresh={handleRefresh}
               refreshing={refreshing}

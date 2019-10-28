@@ -43,13 +43,13 @@ export const List = styled.FlatList.attrs({
 
 export const Meetapp = styled.View``;
 
-export const NoMeetapps = styled.View`
+export const NoMeetup = styled.View`
   align-items: center;
   align-content: center;
   margin-top: 40px;
 `;
 
-export const NoMeetappsText = styled.Text`
+export const NoMeetupText = styled.Text`
   color: #fff;
   font-size: 18px;
   padding: 10px 0;
