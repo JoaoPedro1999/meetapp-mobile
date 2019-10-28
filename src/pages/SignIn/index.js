@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import logo from '../../assets/logo.png';
 
 import Background from '../../components/Background';
-import {signInRequest} from '../../store/modules/auth/actions';
+import { signInRequest } from '../../store/modules/auth/actions';
 
 import {
   Container,
